@@ -8,5 +8,3 @@ const server =app.listen(3000, function() {
 	console.log("app is listening on port 3000."
 	}
 
-console.log{"this is the end of the file")
-
