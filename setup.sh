@@ -11,4 +11,4 @@ else
 echo "doing nothing"
 fi
 
-
+echo "ending setup" 
