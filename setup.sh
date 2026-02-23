@@ -2,13 +2,14 @@
 
 echo "setting up server parameters."
 
-user_name=$1
+user_group=$1
+user_name="Peter"
 
-if [ $user_name == "admin" ]
+if [ $user_group == "admin" ]
 then
 	echo "administer server"
 else
 echo "doing nothing"
 fi
 
-echo "ending setup. Good Bye"
+echo "ending setup. Good Bye $user_name."
