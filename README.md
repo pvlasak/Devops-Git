@@ -14,15 +14,14 @@
 **git rebase --continue**  <br>
 
 <h4> Solving merge conflict: </h4><br>
------------------------------------------
-<h2> Solving merge conflict: </h2>
->>>>>>> parent of c84b5f1 (other changes in README file)
+---------------------------------------- <br>
+
 **git pull --rebase** <br>
 #solving conflict merge <br>
 **git add** <br>
 **git rebase** --continue <br>
 **git push** <br>
-----------------------------------------
+---------------------------------------- <br>
 **git reset --hard HEAD~1** - revert changes 1 commit back in local repository <br>
 **git reset --soft HEAD~1** - reverts commit, withou reverting changes in local repository <br>
 **git push --force** - overwrite last commit in the remote repository, not recommended to be done in the master branch 
