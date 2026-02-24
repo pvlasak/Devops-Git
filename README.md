@@ -19,4 +19,3 @@ git add
 git rebase --continue
 git push
 
-Set docker file :
