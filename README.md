@@ -20,6 +20,7 @@
 **git checkout (commit hash)** - to checkout specific commit identified by a hash. for debugging... <br>
 
 <h4> Solving merge conflict: </h4>
+
 **git pull --rebase** <br>
 solving conflict merge <br>
 **git add** <br>
