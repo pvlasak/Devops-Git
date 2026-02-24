@@ -13,7 +13,7 @@ This project is created to practice git commands
 **git pull --rebase** - to pull changes from remote from other developers and avoid merge branch commits. merge commit don't happen. <br>
 **git rebase --continue**  <br>
 
-<h2> Solving merge conflict: </h2>
+<h4> Solving merge conflict: </h4><br>
 **git pull --rebase** <br>
 #solving conflict merge <br>
 **git add** <br>
