@@ -12,18 +12,16 @@
 
 **git pull --rebase** - to pull changes from remote from other developers and avoid merge branch commits. merge commit don't happen. <br>
 **git rebase --continue**  <br>
+**git reset --hard HEAD~1** - revert changes 1 commit back in local repository <br>
+**git reset --soft HEAD~1** - reverts commit, withou reverting changes in local repository <br>
+**git push --force** - overwrite last commit in the remote repository, not recommended to be done in the master branch <br>
+**git commit --amend** - add commit to the previous one in local repository <br>
+**git revert (commit hash)** - it does not overwrite a commit, it creates a new commit to revert old commit<br>
+**git checkout (commit hash)** - to checkout specific commit identified by a hash. for debugging... <br>
 
 <h4> Solving merge conflict: </h4>
----------------------------------------- <br>
 **git pull --rebase** <br>
 solving conflict merge <br>
 **git add** <br>
 **git rebase** --continue <br>
 **git push** <br>
----------------------------------------- <br>
-**git reset --hard HEAD~1** - revert changes 1 commit back in local repository <br>
-**git reset --soft HEAD~1** - reverts commit, withou reverting changes in local repository <br>
-**git push --force** - overwrite last commit in the remote repository, not recommended to be done in the master branch <br> 
-**git commit --amend** - add commit to the previous one in local repository <br>
-**git revert (commit hash)** - it does not overwrite a commit, it creates a new commit to revert old commit<br>
-**git checkout (commit hash)** - to checkout specific commit identified by a hash. for debugging... <br>
