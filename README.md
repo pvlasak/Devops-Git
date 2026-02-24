@@ -13,10 +13,10 @@
 **git pull --rebase** - to pull changes from remote from other developers and avoid merge branch commits. merge commit don't happen. <br>
 **git rebase --continue**  <br>
 
-<h4> Solving merge conflict: </h4><br>
+<h4> Solving merge conflict: </h4>
 ---------------------------------------- <br>
 **git pull --rebase** <br>
-#solving conflict merge <br>
+solving conflict merge <br>
 **git add** <br>
 **git rebase** --continue <br>
 **git push** <br>
