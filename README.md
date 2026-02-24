@@ -1,9 +1,21 @@
 This project is created to practice git commands 
-This change is made only due to bugfix/auth-error
 
-This is another change that is made in this file in the bugfix/auth-error branch
->>> Change made remotly on GitHub UI!!<<<
-This change is made to document bugfix branches updates.
-Another local change in the REAMDE file !!!!
+E.g.
+git add
+git commit
+git push
+git branch
+git checkout
+git stash
+git stash pop
 
-Third modification after merge the merge conflict.
+git pull --rebase
+git rebase --continue
+
+Solving merge conflict:
+git pull --rebase
+#solving conflict merge
+git add 
+git rebase --continue
+git push
+
