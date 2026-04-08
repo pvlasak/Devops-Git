@@ -18,6 +18,9 @@
 **git commit --amend** - add commit to the previous one in local repository <br>
 **git revert (commit hash)** - it does not overwrite a commit, it creates a new commit to revert old commit<br>
 **git checkout (commit hash)** - to checkout specific commit identified by a hash. for debugging... <br>
+**git fetch origin** - downloads new commits from origin but does not change your local branches yet.<br>
+**git merge origin/main** - combines the changes from origin/main into your current branch (main)
+
 
 <h4> Solving merge conflict: </h4>
 
